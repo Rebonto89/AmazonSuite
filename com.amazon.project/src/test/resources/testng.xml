@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Application Test Suite">
+<listeners>
+<listener class-name="TestNgListeners.ReportListeners"></listener>
+</listeners>
+  <test thread-count="5" name="Amazon Application">
+    <classes>
+      <class name="com.amazon.testCases.verifyLoginComments"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

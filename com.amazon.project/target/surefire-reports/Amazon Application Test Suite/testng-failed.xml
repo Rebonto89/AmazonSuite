@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon Application Test Suite]" verbose="0">
+  <listeners>
+    <listener class-name="TestNgListeners.ReportListeners"/>
+  </listeners>
+  <test name="Amazon Application(failed)">
+    <classes>
+      <class name="com.amazon.testCases.verifyLoginComments">
+        <methods>
+          <include name="verifyNavigation2Trackorder"/>
+          <include name="closeBrowser"/>
+          <include name="verifyPublicLogin"/>
+          <include name="StartApp"/>
+        </methods>
+      </class> <!-- com.amazon.testCases.verifyLoginComments -->
+    </classes>
+  </test> <!-- Amazon Application(failed) -->
+</suite> <!-- Failed suite [Amazon Application Test Suite] -->
